@@ -1,0 +1,67 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em;
+  background-color: #F2F2F2;
+  color: #333333; }
+
+header.banner {
+  background-color: #4C377F;
+  color: #DDDDDD;
+  padding: 1em;
+  text-align: center; }
+  header.banner h1 {
+    font-size: 3.5em;
+    font-weight: normal; }
+  header.banner h2.tagline {
+    font-size: 1.5em;
+    font-weight: lighter; }
+
+section.about {
+  padding: 1em; }
+  section.about section {
+    margin: 2em; }
+    section.about section h1 {
+      font-size: 1.4em; }
+
+@media (min-width: 900px) {
+  section.about {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    box-align: stretch;
+    -ms-flex-align: stretch; }
+    section.about section {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      box-flex: 1;
+      -ms-flex: 1; } }
+
+.restaurants {
+  padding: 0.2em 2em;
+}
+
+footer {
+  padding: 0 1em;
+  background-color: #4C377F;
+  color: white;
+}
+
+.tag-selection ul {
+}
+
+.tag-selection li {
+  display: inline-block;
+  padding: 0.5em 2em;
+  background-color: #4C377F;
+  color: white;
+}
